@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-
                 User user = new User();
                 user.setName(list.get(i).getName());
                 user.setPhoto(list.get(i).getPhoto());
